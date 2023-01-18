@@ -1,0 +1,224 @@
+// @use './vars.scss' as *;
+// @use './queries.scss' as *;
+// @use './type.scss' as *;s
+// @import "./colors.scss";
+// @import './docsearch.scss';
+
+// :root {
+//   --base: 24px;
+//   --breakpoint-xs-width: $breakpoint-xs-width;
+//   --breakpoint-s-width: $breakpoint-s-width;
+//   --breakpoint-m-width: $breakpoint-m-width;
+//   --breakpoint-l-width: $breakpoint-l-width;
+
+//   --scrollbar-width: 17px;
+//   --page-padding-top: calc(var(--header-height) + var(--base) * 2);
+//   --header-height: 104px;
+
+//   --font-body-size: 21px;
+
+//   --z-popup: 10;
+//   --z-modal: 20;
+//   --z-status: 30;
+//   --z-nav: 40;
+  
+//   --gutter-h: calc(var(--base) * 12);
+//   --block-spacing: calc(var(--base) * 7);
+  
+//   @include extra-large-break {
+//     --header-height: 92px;
+//     --font-body-size: 18px;
+//     --base: 20px;
+//   }
+
+//   @include large-break {
+//     --gutter-h: calc(var(--base) * 4);
+//     --block-spacing: calc(var(--base) * 5);
+//     --header-height: 76px;
+//   }
+
+//   @include mid-break {
+//     --gutter-h: calc(var(--base) * 2);
+//     --header-height: 66px;
+//     --block-spacing: calc(var(--base) * 3.5);
+//     --page-padding-top: calc(var(--header-height) + var(--base) * 1.5);
+//   }
+
+//   @include small-break {
+//     --block-spacing: calc(var(--base) * 2);
+//     --gutter-h: calc(var(--base) * 1.5);
+//     --font-body-size: 16px;
+//   }
+// }
+
+// /////////////////////////////
+// // GLOBAL STYLES
+// /////////////////////////////
+
+// * {
+//   box-sizing: border-box;
+// }
+
+// html {
+//   @include body;
+//   background: var(--theme-bg);
+//   -webkit-font-smoothing: antialiased;
+
+//   &[data-theme=dark] {
+//     background: var(--color-base-900);
+//     color-scheme: dark;
+//   }
+// }
+
+// body {
+//   font-family: var(--font-body);
+//   color: var(--theme-text);
+//   margin: 0;
+// }
+
+// ::selection {
+//   background: var(--theme-success-500);
+//   color: var(--theme-base-800);
+// }
+
+// ::-moz-selection {
+//   background: var(--theme-success-500);
+//   color: var(--theme-base-800);
+// }
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+//   display: block;
+// }
+
+// h1 {
+//   @include h1;
+// }
+
+// h2 {
+//   @include h2;
+// }
+
+// h3 {
+//   @include h3;
+// }
+
+// h4 {
+//   @include h4;
+// }
+
+// h5 {
+//   @include h5;
+// }
+
+// h6 {
+//   @include h6;
+// }
+
+// p {
+//   margin: 0 0 var(--base);
+
+//   @include small-break {
+//     margin: 0 0 calc(var(--base) / 2);
+//   }
+// }
+
+// ul,
+// ol {
+//   padding-left: var(--base);
+//   margin: 0 0 var(--base);
+// }
+
+// a {
+//   color: currentColor;
+//   text-decoration-thickness: 1px;
+//   text-underline-offset: 2px;
+
+//   &:focus {
+//     opacity: .8;
+//     outline: none;
+//   }
+
+//   &:active {
+//     opacity: .7;
+//     outline: none;
+//   }
+
+//   @include mid-break {
+//     &:focus,
+//     &:active {
+//       opacity: 1;
+//     }
+//   }
+// }
+
+// time {
+//   @include label;
+//   margin: 0;
+// }
+
+// svg {
+//   vertical-align: middle;
+// }
+
+// strong {
+//   font-family: var(--font-body-bold);
+// }
+
+// em {
+//   font-family: var(--font-body-italic);
+// }
+
+// code {
+//   font-family: var(--font-mono);
+//   font-size: calc(var(--font-body-size) * .825);
+//   background: var(--theme-elevation-100);
+//   border-radius: 4px;
+//   padding: 0 5px;
+// }
+
+// label {
+//   @include label;
+// }
+
+// hr {
+//   border: none;
+//   border-top: 1px solid var(--theme-elevation-400);
+//   margin: var(--block-spacing) 0;
+// }
+
+// dialog {
+//   width: 100%;
+//   border: 0;
+//   padding: 0;
+//   color: currentColor;
+// }
+
+// .payload__modal-item {
+//   min-height: 100%;
+//   background: transparent;
+// }
+
+// .payload__modal-container--enterDone {
+//   overflow: auto;
+// }
+
+// .payload__modal-item--enter,
+// .payload__modal-item--enterDone {
+//   z-index: var(--z-modal);
+// }
+
+// ::selection {
+//   background: var(--color-warning-500);
+//   color: var(--color-base-1000);
+// }
+
+// ::-moz-selection {
+//   background: var(--color-warning-500);
+//   color: var(--color-base-1000);
+// }box-shadow: 1px 5px 10px 0px rgb(0 0 0 / 5%), 0 10px 4px -8px rgb(0 2 4 / 2%);
+// rgb(238 241 244);
+// rgb(148 203 216);
+//rgb(176 195 196)
+// rgb(209 214 214)

@@ -1,0 +1,85 @@
+@import './colors.scss';
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  color: var(--theme-text);
+  margin: 0;
+  // background-color: aqua !important;
+}
+.btn--style-primary {
+  background-color: var(--theme-elevation-800);
+  color: rgb(255 255 255);
+}
+
+label.field-label {
+    display: flex;
+    padding-bottom: 0.4807692308rem;
+    color: rgb(1, 1, 1);
+    font-family: var(--font-body);
+}
+.css-dip3t8 {
+  background: rgb(75, 109, 158) !important;
+}
+.Toastify .Toastify__toast--success{
+  color:white;
+}
+.file-details{
+  .btn{
+    display: none !important;
+  }
+}
+.collection-list__header .pill {
+  margin: 0.9615384615rem 0 0.4807692308rem;
+  color: white;
+  background: #505cc7;
+  padding: 3px;
+}
+.btn--style-primary {
+  background-color: rgb(184, 188, 187);
+  background-color: rgb(123, 123, 167);
+  color: rgb(255, 255, 255);
+}
+.template-minimal--width-normal .template-minimal__wrap {
+  max-width: 500px;
+  width: 100%;
+  margin-top: -10%;
+}
+.collection-list__header .pill {
+  margin: 0.9615384615rem 0 0.4807692308rem;
+  color: white;
+  background: #878dc5;
+  padding: 3px;
+}
+.dashboard__card-list .card {
+  height: 100%;
+  margin: 0 0.9615384615rem;
+  // background-image: url(https://cdn0.iconfinder.com/data/icons/set-ui-app-android/32/8-512.png);
+  background-repeat: no-repeat;
+  background-size: 220px;
+  background-blend-mode: overlay;
+}
+
+
+// .field-type.text input {
+//   box-shadow: 0 2px 3px 0 rgb(0 2 4 / 5%), 0 10px 4px -8px rgb(0 2 4 / 2%);
+//   font-family: var(--font-body);
+//   width: 100%;
+//   border: 1px solid var(--theme-elevation-150);
+//   background: var(--theme-input-bg);
+//   color: black;
+//   border-radius: 0;
+//   font-size: 1rem;
+//   height: 3.8461538462rem;
+//   line-height: 1.9230769231rem;
+//   padding: 0.9615384615rem 1.4423076923rem;
+// }
+
+
+
+

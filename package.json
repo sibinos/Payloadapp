@@ -1,20 +1,27 @@
 {
-  "name": "payload-template-js-blank",
-  "description": "Payload project created from js-blank template",
-  "version": "1.0.0",
-  "main": "server.js",
-  "license": "MIT",
-  "scripts": {
-    "dev": "nodemon",
-    "build": "payload build",
-    "serve": "NODE_ENV=production node server.js"
-  },
-  "dependencies": {
-    "payload": "^1.1.18",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+    "name": "payload-template-js-blank",
+    "description": "Payload project created from js-blank template",
+    "version": "1.0.0",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon",
+        "build": "payload build",
+        "serve": "NODE_ENV=production node server.js"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^7.7.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "nodemailer": "^6.8.0",
+        "nodemailer-sendgrid": "^1.0.3",
+        "payload": "^1.1.18",
+        "react-icon": "^1.0.0",
+        "react-icons": "^4.7.1",
+        "react-pro-sidebar": "^1.0.0-alpha.9"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
 }
